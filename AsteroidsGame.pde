@@ -133,7 +133,7 @@ public void draw()
     textAlign(CENTER);
     text("Y A Y !", 500, 290);
     textSize(30);
-    text("refreshto play again :D!", 500, 370);
+    text("refresh to play again :D!", 500, 370);
     fill(255);
     textSize(25);
     textAlign(LEFT);
