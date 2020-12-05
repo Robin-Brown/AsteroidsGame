@@ -145,8 +145,8 @@ public void draw()
 ////////////////////////////////////////////////////////////////////////////////////////////////
 class Star
 {
-  private int starX, starY; 
-  private double starSize;
+  public int starX, starY; 
+  public double starSize;
   public Star()
   {
     starX = (int)(Math.random()*1000);
@@ -163,8 +163,8 @@ class Star
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 class Asteroid extends Floater {
 
-  private int rotSpeed;
-  private int myRadius;
+  public int rotSpeed;
+  public int myRadius;
 
   Asteroid() {
     myColor = color(103, 115, 125);
